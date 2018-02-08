@@ -18,7 +18,7 @@ module Players
           win = [0, 2, 7, 8].find { |x| board.cells[x] != " " }
 
 
-      #   else #after this it needs to check the win combos!
+      #   else #####after this it needs to check the win combos! Issue with valid_move? to_i
       #      Game::WIN_COMBINATIONS.find do |combo|
       # #       #If 2 are taken in a win combo for other player, then occupy that space
       #        if combo.collect { |i| board.cells[i] == token}.count == 2 && combo.any?{|i| board.cells[i] == " "}
